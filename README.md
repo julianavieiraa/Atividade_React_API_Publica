@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -71,3 +72,7 @@ export default defineConfig([
   },
 ])
 ```
+=======
+# Atividade_React_API_Publica
+Projeto React desenvolvido para consumo de API pública utilizando Axios, com listagem dinâmica de produtos e filtro de pesquisa em tempo real através dos hooks useState e useEffect.
+>>>>>>> 4c1f55dee381b448134273216533cc4ebc2e4fc1
