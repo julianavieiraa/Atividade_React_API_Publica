@@ -1,0 +1,97 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom, #f8fafc, #eef2f7);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+h1 {
+  text-align: center;
+  color:#3a495d;
+  /* color: #1f2937; */
+  margin-bottom: 25px;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.pesquisa {
+  width: 100%;
+  padding: 14px 18px;
+  font-size: 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 14px;
+  outline: none;
+  transition: all 0.3s ease;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.pesquisa:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 12px rgba(59, 130, 246, 0.25);
+}
+
+.total {
+  text-align: center;
+  color: #6b7280;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+.card {
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+.imagem {
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
+  margin: 0 auto 15px;
+  display: block;
+}
+
+.card h3 {
+  color: #111827;
+  font-size: 18px;
+  margin-bottom: 12px;
+  min-height: 48px;
+}
+
+.card p {
+  color: #4b5563;
+  margin: 8px 0;
+}
+
+.card strong {
+  color: #111827;
+}
+
+.preco {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #16a34a;
+  margin: 12px 0;
+}
